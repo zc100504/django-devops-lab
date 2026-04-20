@@ -123,5 +123,5 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret')
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://django-devops-lab-bd05.onrender.com/"
+    "https://django-devops-lab-bd05.onrender.com"
 ]
